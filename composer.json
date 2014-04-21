@@ -1,0 +1,19 @@
+{
+    "name": "vda/dependency-injection",
+    "type": "library",
+    "description": "Dependency injection",
+    "keywords": ["dependency injection"],
+    "require": {
+        "php": ">=5.3.23"
+    },
+    "autoload": {
+        "psr-0": { "": "" }
+    },
+    "target-dir": "Vda/DependencyInjection",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-trunk": "1-dev"
+        }
+    }
+}
